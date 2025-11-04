@@ -1102,7 +1102,7 @@ cluster_stability_sweep <- function(
   
   
   parallel::stopCluster(cl)
-  names(param_outlist_l) <- params_i
+  names(param_outlist_l) <- paramfield
   
   
   #per bootstrap ARI and mean Jaccard of each param -> kind of raw data, can be used for plotting
